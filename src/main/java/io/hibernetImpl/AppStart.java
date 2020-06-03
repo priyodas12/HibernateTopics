@@ -24,6 +24,7 @@ public class AppStart {
             transaction = session.beginTransaction();
             // save the student object
             System.out.println(card);
+
             session.save(card);
             // commit transaction
             transaction.commit();
